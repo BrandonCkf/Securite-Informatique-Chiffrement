@@ -70,11 +70,8 @@ while fl:
         message = input("Inscrivez le message à chiffrer/déchiffrer ou 'Retour' pour choisir la méthode de chiffrement :   ")
         if message != ret:
             a = int(input(" Inscrivez l'entier 'a' de la matrice :   "))
-            print("\n")
             b = int(input(" Inscrivez l'entier 'b' de la matrice :   "))
-            print("\n")
             c = int(input(" Inscrivez l'entier 'c' de la matrice :   "))
-            print("\n")
             d = int(input(" Inscrivez l'entier 'd' de la matrice :   "))
             print("\n")
             det = a*d-b*c
